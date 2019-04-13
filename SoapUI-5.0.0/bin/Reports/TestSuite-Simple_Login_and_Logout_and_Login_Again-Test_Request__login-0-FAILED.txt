@@ -1,0 +1,26 @@
+Status: FAILED
+Time Taken: 1113
+Size: 0
+Timestamp: Sat Apr 13 12:35:48 EDT 2019
+TestStep: Test Request - login
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:8088 refused
+
+----------------- Properties ------------------------------
+Endpoint: http://127.0.0.1:8088/mockServiceSoapBinding
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sam:login>
+         <username>Loginn0.681</username>
+         <password>Loginu123</password>
+      </sam:login>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
