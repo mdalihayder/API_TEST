@@ -1,0 +1,1 @@
+testrunner.bat -sTestSuite -r -j -fReports C:\Users\M\Desktop\SoapUI_Test\SoapUI-TestRun\Sample-SOAP-Project-soapui-project.xml
